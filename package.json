@@ -1,0 +1,23 @@
+{
+  "name": "thank-you",
+  "version": "1.0.0",
+  "description": "github actions practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senavarro/actions-practice.git"
+  },
+  "author": "Sergi Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senavarro/actions-practice/issues"
+  },
+  "homepage": "https://github.com/senavarro/actions-practice#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}

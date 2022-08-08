@@ -1,0 +1,16 @@
+name: 'Thank You Action'
+description: 'Say "Thank You" to new pull requests'
+author: 'Sergi Navarro'
+
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
